@@ -5,12 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script defer src="script.js"></script>
-
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <input id="pokemonName" placeholder="Enter Pokemon name" type="text">
     <button onclick="fetchData()">Choose Your Pokemon</button><br>
-
-    <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display: none; width: 500px">
+    <div class="pokemonStats">
+        <h1>Player Pokemon</h1>
+        <img src="" alt="Pokemon Sprite" id="pokemonSprite">
+        <p class="health"></p>
+        <p class="attack"></p>
+        <p class="defense"></p>
+        <p class="speed"></p>
+    </div>
+    <div class="enemyPokemon">
+        <h1>Enemy Pokemon</h1>
+        <img src="" alt="Pokemon Sprite" id="pokemonSprite">
+        <p class="health"></p>
+        <p class="attack"></p>
+        <p class="defense"></p>
+        <p class="speed"></p>
+    </div>
+    
 </body>
 </html>

@@ -1,0 +1,32 @@
+.pokemonStats {
+    border: solid black 3px;
+    border-radius: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pokemonStats p {
+    font-family: Arial;
+}
+.pokemonStats img {
+    display: none;
+    width: 200px;
+    margin-bottom: -30px;
+}
+.enemyPokemon {
+    border: solid black 3px;
+    border-radius: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.enemyPokemon p {
+    font-family: Arial;
+}
+.enemyPokemon img {
+    display: none;
+    width: 200px;
+    margin-bottom: -30px;
+}
